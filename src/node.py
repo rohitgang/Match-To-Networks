@@ -10,7 +10,8 @@ class Node :
         self.__X_POS = None
         self.__Y_POS = None
         self.__outgoing_links = [] #thinking that this will be a list of dictionaries, {'node_obj':obj, 'strength': euclidean_dist}
-
+        self.__ACTIVE = True
+        
     def set_x_pos(self, x):
         self.__X_POS = x
 
