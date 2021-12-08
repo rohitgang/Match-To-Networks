@@ -29,3 +29,5 @@ Higher level steps :
 3. source mtnenv/bin/activate
 
 * remember to update the requirements.txt file with nay new packages using **pip freeze > requirements.txt**
+
+4. deactivate (use once you are done using the environment)
