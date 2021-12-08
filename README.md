@@ -19,3 +19,13 @@ Higher level steps :
 1. Achieve network generation from one frame of the match.
 2. Achieve network generation for each frame in the whole match.
 3. Achieve network generation from match feed in real - time.
+
+## Installation and Setup
+
+**Run these commands**
+
+1. pip install virtualenv
+2. virtualenv mtnenv
+3. source mtnenv/bin/activate
+
+* remember to update the requirements.txt file with nay new packages using **pip freeze > requirements.txt**
